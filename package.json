@@ -1,0 +1,30 @@
+{
+  "name": "email-eth",
+  "version": "0.0.1",
+  "description": "On-chain contract interface for an off-chain email service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asta-li/email-eth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asta-li/email-eth/issues"
+  },
+  "homepage": "https://github.com/asta-li/email-eth#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.2",
+    "aws-sdk": "^2.1066.0",
+    "dotenv": "^14.3.2",
+    "solc": "^0.8.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "ethers": "^5.5.3",
+    "hardhat": "^2.8.3"
+  }
+}
